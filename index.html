@@ -2,95 +2,138 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Daniela Sannino</title>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
-    <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
+    <title>Daniela Portfolio</title>
+    <meta name="author" content="daniela-sannino">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="keywords,here">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Varela' type="text/css">
+ <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+ <link rel="stylesheet" href="styles/main.css" type="text/css">
   </head>
-    <body>
-      <div class="image">
-        <nav class="navbar">
-          <div class="container-fluid">
-            <ul class="nav navbar-nav navbar-left">
-              <li><a href="#" id="about-button">About</a></li>
-              <li><a href="#"id="portfolio-button">Portfolio</a></li>
-              <li><a href="#" id="contact-button">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-        <div class="container hero">
-            <h1>Daniela Sannino</h1>
-            <h2>Developer, Music Enthusiast, Book Nerd</h2>
-            <h3>Let's connect and chat:</h3>
-              <div class="links"> <!-- Links -->
-                <a href="https://resume.creddle.io/resume/c1hqnm171hi"><span class="far fa-file"></span></a>
-                <a href="https://www.linkedin.com/in/daniela-sannino/"><span class="fab fa-linkedin-in"></span></a>
-                <a href="https://github.com/danielasannino"><span class="fab fa-github"></span></a>
+  <body>
+  <main role="main">
+      <div class="container">
+      <section role="region" class="welcome-section row" id="landing">
+          <div class="content">
+              <div class="col-12">
+                  <h1>Daniela Sannino</h1>
+                  <p>
+                      <a class="nav-button" href="#about">About</a>
+                      <a class="nav-button" href="#projects">Projects</a>
+                      <a class="nav-button" href="#contact">Contact</a>
+                  </p>
               </div>
-        </div>
-        <div class="scroll-div">
-          <div id="scroll-content" class="container text-center">
-            <div class="about"> <!-- About Me -->
-              <h1>About Me</h1>
+          </div>
+      </section>
+
+      <section role="region" class="about-section" >
+          <div class="content">
+              <div class="bison">
+              </div>
+              <h2 id="about">About Me</h2>
               <div class="row">
-                <div class="col-md-12">
-                  <p>Hey everyone, I'm Daniela. As a Full Stack Developer, I specialize in front end development using Javascript, JQuery, and AngularJS and back end development using Ruby and Ruby on Rails. I'm committed to writing clean and concise code and am a firm believer of the TDD process. I believe a huge part of being a developer means you're always learning something new that's why I'm constantly keeping my skills sharp through self study.<p>
-                </div>
+                  <div class="col-4">
+                      <img src="../assets/images/headshot.jpg" alt="headshot" />
+                  </div>
+                  <div class="col-8">
+                      <p>Hey everyone! I'm Daniela. I'm a full stack web developer based in Brooklyn, NY. When I'm not tinkering with code I spend my time following soccer (European, obvs), listening to rock music, going to indie shows here in NYC, and volunteering with Operation Code.</p>
+                      <p>Enthusiastic software developer interested in front-end or full-stack development using JavaScript and Ruby. Experience with JavaScript, JQuery, AngularJS, React, Ruby, & Ruby on Rails.
+                      </p>
+                  </div>
               </div>
-            </div>
-        </div>
-      </div>
-      <div class="portfolio-section">
-        <h1>Portfolio</h1>
-        <div class="row">
-          <!--First project-->
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="../assets/images/brewjams-min.jpg" alt="Brew Jams">
-              <div class="caption">
-                <h2>Brew Jams</h2>
-                <p>Brew Jams is a replica of a music player which I built using Javascript and subsequently refactored with jQuery</p>
-                <p><a href="http://brewjams.bitballoon.com/index.html" class="btn btn-primary" role="button">Click here</a>
-              </div>
-            </div>
           </div>
-          <!--Second project-->
-         <div class="col-md-4">
-           <div class="thumbnail">
-             <img src="../assets/images/shareit-min.jpg" alt="Shareit.">
-             <div class="caption">
-               <h2>Shareit</h2>
-               <p>Shareit is a Reddit replica which was built with Ruby on Rails</p>
-               <p><a href="https://danielasannino-shareit.herokuapp.com/" class="btn btn-primary" role="button">Click here</a>
-             </div>
-           </div>
-         </div>
-         <!--Third project-->
-       <div class="row">
-         <div class="col-md-4">
-           <div class="thumbnail">
-             <img src="../assets/images/weekly-agenda-min.jpg" alt="Weekly Agenda">
-             <div class="caption">
-               <h2>Weekly Agenda</h2>
-               <p>Weekly Agenda is a self destructing to do application built with Ruby on Rails</p>
-               <p><a href="https://danielasannino-weeklyagenda.herokuapp.com/" class="btn btn-primary" role="button">Click here</a>
-             </div>
-           </div>
-         </div>
-       </div>
+      </section>
+
+
+        <h2 class="project-header" id="projects">My Work</h2>
+
+      <section role="region" class="project-section">
+          <div class="content">
+              <h3>Operation Code Podcast Page</h3>
+              <div class="col-7">
+                  <p>Built a podcast page for Operation Code using React.js where listeners can listen to exciting and inspiring stories of veterans transitioning into the tech field.</p>
+                  <p>Stack: React</p>
+                  <p><a class="github-link" target="blank" href="https://github.com/OperationCode/front-end"></a>
+                      <a class="heroku-link" target="blank" href="https://operationcode.org/podcast">Live Version</a></p>
+              </div>
+              <div class="col-5 img-container">
+                  <img id="podcast-img" src="../assets/images/operation-code.png" alt="operation code screenshot" />
+              </div>
+          </div>
+      </section>
+
+      <section role="region" class="project-section" >
+          <div class="content">
+              <h3>Brew Jams</h3>
+              <div class="col-5">
+                  <img id="brew-jams-img" src="../assets/images/brewjams-min.jpg" alt="brew-jams-src-shot" />
+              </div>
+              <div class="col-7">
+                  <p>Brew Jams is a replica of a music player which I built using Javascript and subsequently refactored with jQuery</p>
+                  <p>Stack: HTML, CSS, JavaScript, jQuery, Buzz audio library, AngularJS</p>
+                  <p><a class="github-link" target="blank" href="https://github.com/danielasannino/brew-jams"></a>
+                      <a class="heroku-link" target="blank" href="http://brewjams.bitballoon.com/">Live Version</a></p>
+              </div>
+          </div>
+      </section>
+
+      <section role="region" class="project-section">
+          <div class="content">
+              <h3>ShareIt</h3>
+              <div class="col-7">
+                  <p>Shareit is a Reddit replica which was built with Ruby on Rails</p>
+                  <p>Ruby on Rails, Bootstrap</p>
+                  <p><a class="github-link" target="blank" href="https://github.com/danielasannino/shareit"></a>
+                      <a class="heroku-link" target="blank" href="https://danielasannino-shareit.herokuapp.com/">Live Version</a></p>
+              </div>
+              <div class="col-5">
+                  <img id="shareit-img" src="../assets/images/shareit-min.jpg" alt="shareit-src-shot" />
+              </div>
+          </div>
+      </section>
+
+      <section role="region" class="project-section">
+          <div class="content">
+              <h3>Weekly Agenda</h3>
+              <div class="col-5">
+                  <img src="../assets/images/weekly-agenda-min.jpg" alt="weekly-agenda-src-shot" />
+              </div>
+              <div class="col-7">
+                  <p>Weekly Agenda is a self destructing to do application built with Ruby on Rails
+                  </p>
+                  <p>Ruby on Rails<a class="github-link" target="blank" href="https://github.com/danielasannino/weeklyagenda"></a><a class="heroku-link" target="blank" href="https://danielasannino-weeklyagenda.herokuapp.com/">Live Version</a></p>
+              </div>
+          </div>
+      </section>
+
+      <section role="region" class="contact-section" id="contact">
+          <div class="content">
+              <h2>Contact Me</h2>
+                  <div class="col-4 contact-info">
+                      <h3>Daniela Sannino</h3>
+                      <ul>
+                          <li><a href="mailto:daniela.sannino1@gmail.com">daniela.sannino1@gmail.com</a></li>
+                          <li>Brooklyn, NY</li>
+                          <li>
+                              <a class="linkedin-link" href="https://www.linkedin.com/in/daniela-sannino/" target="blank"></a>
+                              <a class="github-link" href="https://github.com/danielasannino" target="blank"></a>
+                          </li>
+                          <li>
+                              <a href="../assets/images/resume.pdf">View Resume</a>
+                          </li>
+                      </ul>
+              </div>
+          </section>
       </div>
-    </div>
-    <div class="contact"> <!-- Contact info -->
-      <h1>Contact Me</h1>
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Email: daniela.sannino1@gmail.com<h2>
-          <h2>Phone: 347-388-0716</h2>
-      </div>
-    </div>
+      <footer>
+          <span>Daniela Sannino 2019</span>
+          <span><a href="#landing">Back to Top</a></span>
+      </footer>
+
   </div>
+  </main>
+  <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
