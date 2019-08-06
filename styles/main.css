@@ -97,7 +97,7 @@ body {
 }
 
 main{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
 }
 a {
     text-decoration: none;
@@ -215,7 +215,7 @@ h2 {
     margin-right: auto
 }
 .contact-section h3 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .contact-section li img {
@@ -265,7 +265,9 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.github-link-footer {
+    margin-left: 24px;
+}
 #linkedin {
     height: 25px;
     width: 100px;
