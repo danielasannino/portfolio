@@ -8,6 +8,7 @@ body {
     margin: 0 auto 0 auto;
     width: 100%;
     max-width: 1080px;
+    background-color: #000000
 }
 .row::after {
     content: "";
@@ -98,16 +99,17 @@ body {
 
 main{
     font-family: 'Roboto Slab', sans-serif;
+    color: #ffffff
 }
 a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 p {
     line-height: 150%
 }
 a:hover {
-    color: lightgrey;
+    color: #d3d3d3;
 }
 h2 {
     margin-top: 0px;
@@ -181,7 +183,7 @@ h2 {
 }
 .project-section img {
     width: 325px;
-    box-shadow: 4px 4px 6px #888888;
+    /* box-shadow: 4px 4px 6px #888888; */
     height: auto;
     display: block;
     margin: 0 auto 20px auto;
@@ -232,7 +234,7 @@ h2 {
     display: inline-block;
     height: 25px;
     width: 100px;
-    background-image: url("../assets/images/linkedin-icon.png");
+    background-image: url("../assets/images/grey-linkedin-icon.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 20px;
@@ -241,7 +243,7 @@ h2 {
     display: inline-block;
     height: 25px;
     width: 100px;
-    background-image: url("../assets/images/linkedin-icon.png");
+    background-image: url("../assets/images/grey-linkedin-icon.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -252,7 +254,7 @@ h2 {
     width: 25px;
     position: absolute;
     top: 10;
-    background-image: url("../assets/images/github-icon.png");
+    background-image: url("../assets/images/grey-github-icon.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
