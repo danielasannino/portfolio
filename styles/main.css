@@ -280,5 +280,6 @@ footer {
     margin-top: -30px;
 }
 footer span {
-    margin: 40px;
+    display: inline-block;
+    margin: 10px;
 }
